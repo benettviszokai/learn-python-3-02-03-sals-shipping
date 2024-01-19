@@ -39,5 +39,5 @@ if (ground_cost <= ground_premium_cost) and (ground_cost <= drone_cost):
   print("Ground Shipping is the cheapest option: " + str(ground_cost) + "$")
 elif (ground_premium_cost <= ground_cost) and (ground_premium_cost <= drone_cost):
   print("Ground Shipping Premium is the cheapest option: " + str(ground_premium_cost) + "$")
-elif (drone_cost <= ground_cost) and (drone_cost <= ground_premium_cost):
+else:
   print("Drone Shipping is the cheapest option: " + str(drone_cost) + "$")
